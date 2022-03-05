@@ -1,0 +1,38 @@
+
+{
+	"medicament":
+	[
+      {name:"Advil",	  CIP:"cpi1", number_lot:"ad01",entry_date:"05/01/2022",expiration_date:"12/11/2022",quantity:100,price:3.99, image:"https://i5.walmartimages.ca/images/Enlarge/765/914/6000197765914.jpg"},
+      {name:"Tylenol",CIP:"cpi2",number_lot:"ty101",entry_date: "20/12/2021",expiration_date:"05/05/2022",quantity:100,price:15,image:"https://www.tylenol.com/sites/tylenol_us/files/styles/product_image/public/tyl_est_charm_bty_ft.jpg"},
+      {name:"Paracetamol",CIP:"cpi3",number_lot:"pa102",entry_date: "25/10/2021",expiration_date:"05/09/2022",quantity:100,price:18,image:"https://resize1.prod.docfr.doc-media.fr/rcrop/642,346,center-middle/img/var/medicineguide/pictures/210372"},
+      {name:"Clotrimazole",CIP:"cpi4",number_lot:"clo102",entry_date:"10/11/2021", expiration_date:"10/11/2022",quantity:150,price:9.99,image:"https://img.medscapestatic.com/pi/features/drugdirectory/octupdate/ACT02200.jpg?output-quality=50"},
+      {name:"Doliprane",CIP:"cpi5",number_lot:"dol102",entry_date: "03/03/2022",expiration_date:"05/11/2022",quantity:200,price:5.99,image:"https://www.mon-pharmacien-conseil.com/10838-large_default/doliprane-1000mg-adult-box-of-8cps.jpg"},
+      {name:"Ibuprofen",CIP:"cpi6",number_lot:"ibu102",entry_date: "15/01/2022",expiration_date:"20/12/2022",quantity:100,price:3.99,image:"https://images.unsplash.com/photo-1550572017-4fcdbb59cc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWJ1cHJvZmVufGVufDB8fDB8fA%3D%3D&w=1000&q=80"},
+      {name:"Pevaryl",CIP:"cpi7",number_lot:"peva102",entry_date: "05/02/2022" ,expiration_date:"05/11/2022",quantity:100,price:3.99,image:"https://cdn.shop-pharmacie.fr/images/pevaryl-creme-1-creme-F10000483-p10.jpg"},
+      {name:"Miconazole",CIP:"cpi8",number_lot:"mico102",entry_date: "05/11/2021",expiration_date:"05/10/2022",quantity:100,price:3.99,image:"https://res.cloudinary.com/jeancoutu/image/fetch/f_auto,fl_progressive.lossy,q_auto/https://www.jeancoutu.com/catalogue-images/319439/description/personnelle-miconazole-traitement-7-jours-45-g.png"},
+      {name:"Prontadol",CIP:"cpi9",number_lot:"pronta102",entry_date: "05/01/2022",expiration_date:10/01/2022,quantity:100,price:3.99,image:"https://www.prontadol.fr/wp-content/uploads/2021/07/prontadol.png"},
+      {name:"Imodium",CIP:"cpi10",number_lot:"imo102",entry_date: "05/01/2022",expiration_date:"05/11/2022",quantity:100,price:3.99,image:"https://cdn.cnetcontent.com/syndication/mediaserverredirect/9cd7d104f105eaf5429fae29002c0379/maxsize(800x800).jpg"}
+    ],
+	"pharmacist":
+	[
+      {
+        name: "Pharmacie Mauricie", address: "10 rue Laviolette", province: "Quebec",
+        password: "123", email: "pharmaM@gmail.com", area: "Mauricie",stock:[
+          {name:"Advil",CIP:"cpi1",number_lot:"ad01",entry_date:"05/01/2022",expiration_date:"12/11/2022",quantity:100,price: 3.99,image:"https://i5.walmartimages.ca/images/Enlarge/765/914/6000197765914.jpg"},
+          {name:"Tylenol",CIP:"cpi2",number_lot:"ty101",entry_date:"20/12/2021",expiration_date:"05/05/2022",quantity:100,price :15,image:"https://www.tylenol.com/sites/tylenol_us/files/styles/product_image/public/tyl_est_charm_bty_ft.jpg"}
+        ]
+      },
+      {
+        name: "Jean Coutu", address: "10 rue cecile", province: "Quebec",
+        password: "1234", email: "jeancoutu@gmail.com", area: "Mauricie",stock:[
+          {name:"Tylenol",CIP:"cpi2",number_lot:"ty101",entry_date:"20/12/2021",expiration_date:"05/05/2022",quantity:100,price: 15,image:"https://www.tylenol.com/sites/tylenol_us/files/styles/product_image/public/tyl_est_charm_bty_ft.jpg"},
+
+        ]
+      },
+      {
+        name: "Philippe", address: "10 rue De Mesy", province: "Quebec",
+        password: "12345", email: "philipe@gmail.com", area: "Montreal",
+        stock:[{name:"Paracetamol",CIP:"cpi3",number_lot:"pa102",entry_date: new "25/10/2021",expiration_date:"05/09/2022",quantity:100,price:15,image:"https://www.tylenol.com/sites/tylenol_us/files/styles/product_image/public/tyl_est_charm_bty_ft.jpg"}]
+      },
+    ]
+}
